@@ -1,3 +1,5 @@
 res://world.tscn
 res://player/player.tscn
 res://player/player.gd
+res://Enemy/WeakKolbold/enemy_kolbold_weak.tscn
+res://Enemy/enemy.gd
