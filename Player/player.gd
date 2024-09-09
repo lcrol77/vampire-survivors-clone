@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 @export var movement_speed = 40.0
+@export var hp = 80
 @onready var sprite_2d: Sprite2D = $Sprite2D
 @onready var walk_cycle_timer: Timer = $WalkCycleTimer
 
@@ -18,4 +19,10 @@ func _physics_process(delta: float) -> void:
 	
 	velocity = direction * movement_speed
 	move_and_collide(velocity * delta)
+	
+
+
+func _on_hurtbox_hurt(damage: Variant) -> void:
+	hp -=damage
+	print("hp ", hp)
 	

@@ -1,5 +1,10 @@
-res://world.tscn
 res://player/player.tscn
-res://player/player.gd
+res://world.tscn
+res://Player/player.tscn
+res://Util/hitbox.tscn
+res://Util/hitbox.gd
+res://Util/hurtbox.tscn
+res://Util/hurtbox.gd
 res://Enemy/WeakKolbold/enemy_kolbold_weak.tscn
+res://Player/player.gd
 res://Enemy/enemy.gd

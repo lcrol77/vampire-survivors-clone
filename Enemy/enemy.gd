@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 @export var movement_speed = 20.0
+@export var hp = 10
 @onready var sprite_2d: Sprite2D = $Sprite2D
 @onready var player = get_tree().get_first_node_in_group("player")
 @onready var walk_cycle_timer: Timer = $WalkCycleTimer
@@ -19,3 +20,8 @@ func _physics_process(delta: float) -> void:
 			walk_cycle_timer.start()
 	velocity = direction * movement_speed
 	move_and_collide(velocity * delta)
+
+func _on_hurtbox_hurt(damage: Variant) -> void:
+	hp -=damage
+	if hp <=0:
+		queue_free()
