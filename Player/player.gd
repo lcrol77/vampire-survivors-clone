@@ -14,7 +14,7 @@ var ice_spear = preload("res://Player/Attacks/IceSpear/ice_spear.tscn")
 
 # IceSpear
 var ice_spear_ammo = 0
-var ice_spear_base_ammo = 1
+var ice_spear_base_ammo = 5
 var ice_spear_attack_speed = 1.5
 var ice_spear_level = 1
 

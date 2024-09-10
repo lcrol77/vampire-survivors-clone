@@ -18,11 +18,14 @@ func _ready() -> void:
 	match level:
 		1:
 			level = 1
-			hp  = 1
+			hp  = 2
 			speed = 100
 			damage = 5
 			knock_back =100
 			attack_size = 1.0
+	var tween = create_tween()
+	tween.tween_property(self, "scale", Vector2(1,1)*attack_size,1).set_trans(tween.TRANS_QUINT).set_ease(Tween.EASE_OUT)
+	tween.play()
 
 func _physics_process(delta: float) -> void:
 	position += angle * speed * delta
