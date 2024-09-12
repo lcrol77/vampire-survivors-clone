@@ -3,12 +3,11 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://cf0mv6xqbg3ra"
-path="res://.godot/imported/battleThemeA.mp3-74b0389d6fe22abaaddb71d6d3fc916f.mp3str"
+valid=false
 
 [deps]
 
 source_file="res://Audio/Music/battleThemeA.mp3"
-dest_files=["res://.godot/imported/battleThemeA.mp3-74b0389d6fe22abaaddb71d6d3fc916f.mp3str"]
 
 [params]
 
