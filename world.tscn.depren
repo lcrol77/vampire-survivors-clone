@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://c413kqa0i4iti"]
 
-[ext_resource type="Texture2D" uid="uid://d4ndnheg80eo1" path="res://Textures/dirt_full_new.png" id="1_a70uf"]
+[ext_resource type="Texture2D" uid="uid://d4ndnheg80eo1" path="res://Textures/dirt_full_new.png" id="1_e27yx"]
 [ext_resource type="PackedScene" uid="uid://c7o0nrg8q0r4f" path="res://Player/player.tscn" id="2_508wo"]
 [ext_resource type="PackedScene" uid="uid://ds1cdobwk5fdj" path="res://Enemy/WeakKolbold/enemy_kolbold_weak.tscn" id="3_hov7g"]
 [ext_resource type="PackedScene" uid="uid://dmsfxgdi4dmxe" path="res://Util/enemy_spawner.tscn" id="3_u0v0c"]
@@ -27,7 +27,7 @@ enemy_spawn_delay = 1
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
 texture_repeat = 2
-texture = ExtResource("1_a70uf")
+texture = ExtResource("1_e27yx")
 region_enabled = true
 region_rect = Rect2(0, 0, 4000, 4000)
 

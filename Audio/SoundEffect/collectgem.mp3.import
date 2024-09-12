@@ -3,11 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://chgmkluhravxl"
-valid=false
+path="res://.godot/imported/collectgem.mp3-63efac066a0a395abbf10c284e8a888c.mp3str"
 
 [deps]
 
 source_file="res://Audio/SoundEffect/collectgem.mp3"
+dest_files=["res://.godot/imported/collectgem.mp3-63efac066a0a395abbf10c284e8a888c.mp3str"]
 
 [params]
 
